@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            landing page
+        </title>
+        <style>
+            body{
+                background-color: rgb(5, 5, 5);
+                color:white;
+                border-style:solid;
+                border-color:aliceblue
+                
+            }
+          #one{
+            float:left;
+          }
+          #dd{
+            float:right;
+          }
+          .two{
+                border-color: azure;
+                border-style: solid;
+          }
+          li,ul,nav,h1{
+            display:inline;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 5px;
+            padding-right: 5px;
+          }
+          ul{
+            margin-left:70%;
+          }
+          #o{
+            display:inline;
+            padding:none;
+            margin:0;
+            
+          }
+        #p:hover{
+            background-color:rgb(83, 66, 150);
+          }
+          table{text-align:center;
+            border: 25px;
+            border-style: solid;
+            border-color: aliceblue;
+          }#a{
+            margin-left:0;
+            margin-right:0;
+          }
+          #b{
+            float:left;
+            
+          }
+          #dd{
+            float:right;
+          }
+        
+          
+         
+
+          
+        </style>
+    </head>
+    <body>
+        <nav class = "two">
+            <h1> BURGO </h1>
+        <ul id = "q">
+        <li id = "p">HOME||</li>
+         <li id = "p">ABOUT US||</li>
+         <li id = "p">CONTACT US</li> 
+        </ul>
+        </nav><br><br>
+        <br><br>
+       <center> <h1><em>🍔 WELCOME TO BURGER POINT </em> </h1></center>
+        <center>
+            <h1><em>The ultimate burger hauem</em></h1><br><br>
+        </center>
+        <img src = "C:\Users\kalaivendhan\OneDrive\Desktop\cpp program\NicePng_lettuce-png_4378461.png" hegght = 2000px; width = 250px; id = "b">      
+          <img src = "D:\Downloads\delicious-burger-with-fresh-ingredients.jpg" height = "600px" width = "550x" id = "dd">
+        <center>
+          
+        <img src = "d:\Downloads\pngwing.com.png" height = "50px" width = "50px" id = "o">
+        
+        <h1><em>BUY ONE GET ONE FREE</em></h1><br><br>
+        <H1><EM>EXCITING OFFER AND DISCOUNT</EM></H1><br><br>
+        <h1>MENU</h1><br><br>
+        <center><div id = "d">
+            <table id = "a"><em>
+            <th><em>menu</em></th>
+            <th>NAME</th><th>PRICE</th>
+            <tr>
+                <td>CHEESE BURGER</td><TD>250</TD>
+            </tr>
+            <TR>
+                <TD>ONION BUGER</TD><TD>100</TD>
+            </TR>
+            <TR><TD>CHICKEN BURGER</TD><TD>200</TD></TR>
+            <TR><TD>PANNER BURGER</TD><TD>300</TD></TR>
+        </em></table>
+    </div>
+</center>
+        </center><br><br><br><br><br><br><hr>
+        <center>
+        <nav id = "o">
+            <h1>CONTACT DETAILS</h1><BR>
+                <h1>CONTACT NO::91+9345738600</h1><br><a href ="https://www.swiggy.com/">REACH US THROUGH OUR WEBSITE</a><br><a href = "mailto:asin29122006@gmail.com">FOR FUTHER DETAILS MAIL US</a>
+
+        </nav>
+        </center>
+    </body>
+</html>
+
+
+
