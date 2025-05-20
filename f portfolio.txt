@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Porfolio
+        </title>
+       
+        <style>
+*{
+    background-color: black;
+    color:white;
+}
+img{margin:0;
+    
+    float:left;
+    background-color: black;
+    padding:none;
+    margin:0;
+    
+}
+a{
+    color:rgb(61, 183, 183);
+}
+#p{
+    border-style: solid;
+    border-color: rgb(208, 208, 27);
+    border-spacing: "10cm";
+    font-size: 150%;
+    font-family: sans-serif;
+    padding:5px;
+}
+#q{ border-style: solid;
+    border-color: rgb(129, 129, 55);
+    
+    font-size: 150%;
+    font-family: sans-serif;
+    padding:5px;
+
+}
+#r{
+     border-style: solid;
+    border-color: rgb(129, 129, 55);
+    border-spacing: "10cm";
+    font-size: 173%;
+    font-family: sans-serif;
+    padding:5px;
+}
+#v{
+    font-family: sans-serif;
+    font-size: 50px;
+    color:brown
+}
+#o{
+    text-decoration-color: blanchedalmond;
+}
+body{
+    border-style: solid;
+    border-color: aliceblue;
+    border:auto;
+}#a{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+#b{
+   font-family: sans-serif;
+    font-size: 50px; 
+}
+
+#c{
+     font-family: sans-serif;
+    font-size: 50px;
+}
+#f{
+      font-family: sans-serif;
+    font-size: 50px;
+}
+#g{
+      font-family: sans-serif;
+    font-size: 50px;
+   
+}
+        </style>
+    </head>
+    <body>
+        <h1>
+       <header>  
+              <img src = "C:\Users\kalaivendhan\OneDrive\Desktop\cpp program\my image.jpg" height = 380px width = 380px>
+                
+              <center><div id = "z">
+               <h1><em>ASIN A</em></h1>
+                    <h2><em>WEB DEVELOPER</em></h2>
+                    <a href = "https://www.linkedin.com/in/asin-a-380a3332a" id = "k">Linked-in </a>
+<br><a href = "Asinkumar" id = "m">GitHub</a><br>
+                    <a href = "mailto:asin29122006@gmail.com" id = "n">Mail</a>
+                  </div></center>
+                  
+            </header>
+            
+                
+               <center> <div id = "a">
+                <br><br>
+                    <p>
+               <em><p>Hi there! Iam Asin,
+A Motivated Artificial Intelligence And Data Science Student With passionate About Web Development
+                        </p></em>
+                    </p>
+                </div>
+                
+                <div id = "b">
+                    
+                    <h1><EM><U>WORK EXPERIENCES</U></EM></h1>
+                    <SPAN><EM>CODESOFT-WEB DEVELOPMENT INTERN</EM></SPAN><BR>
+                        <a href ="https://www.codsoft.in/">CODESOFT</a> 
+                        
+                       
+                </div>
+ <p>About The Intern This Was My First Oppurtunity to Take A Handson Experience On The Basics Of Web Develeopment<br>
+    <img src = "D:\Downloads\emojis.com programmer-working-with-laptop.png" height = "200px" width = "200px"></p>
+                <BR>
+                    
+                 <div id = "c">
+                    
+          
+                <H3><EM><U><STRONG>EDUCATION</STRONG></U></EM><BR></H3>
+                      <EM>2024-2028</EM><BR>
+                    <EM>B-TECH</EM><BR>
+                    
+                    <EM>Artificial Intelligence And Data Science</EM><BR>
+                          <em>Chennai Institute Of Technology</em><BR>
+                    <EM>CGPA-8.6</EM><br>
+                    <EM>Chennai ,
+                        Tamilnadu</EM>
+                    
+                </div>
+           
+                    
+                  
+                <BR>
+
+                <div id = "f">
+                    <em><u>SKILLS</u></em><br>
+                    <em>Cpp</em><BR>
+                        <EM>Html</EM><BR>
+                            <EM>Css</EM><BR>
+                               
+                </div>
+                <br>
+                <div id = "g">
+                    <em><u>PROJECTS</u></em><BR>
+                        <EM>simple Calculator Using-Html,Css,Javascript </EM><br>
+                        <em>Simle Calculator-Cpp</em><br>
+                        <em>Number Guessing Game-Cpp</em><br>
+                        <em>Landing page-Html,Css</em><br>
+                        <em>Portfolio</em><br>
+                        <em>To Do List</em><br>
+
+                </div>
+                <br>
+                <h1><em>Contact Me</em></h1>
+                
+                <FORM  id = "o">
+                        <INPUT TYPE = "TEXT" PLACEHOLDER = "NAME" id = "p">
+                            <BR>
+                                <INPUT TYPE = "EMAIL" PLACEHOLDER = "EMAIL-ID" id = "q">
+                                    <BR>
+                                        <TEXTAREA ROW = "10PX" COLUMN = 10PX id = "r">MESSAGE</TEXTAREA><BR>
+
+                                        <button type="submit" id = "v">submit</button>
+                    </FORM>
+                    <BR>
+
+            
+        </center>
+        <script>
+            document.getElementById("o").addEventListener("submit",function(Event){
+    event.preventDefault();
+    alert("form submitted successfully");
+  
+});
+        </script>
+        <script>
+            const form = document.getElementById("o");
+    form.addEventListener('submit',function(event){
+        event.preventDefault();
+        form.submit();
+    });
+        </script>
+        <script>
+             
+            
+        </script>
+    </body>
+</html>
